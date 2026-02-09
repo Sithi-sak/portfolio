@@ -91,7 +91,6 @@ a:hover {
   display: none;
   background: none;
   border: none;
-  font-size: var(--text-3xl);
 }
 
 @media (max-width: 1280px) {
