@@ -1,0 +1,26 @@
+:host {
+  font-size: var(--text-base);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing) * 1);
+  padding-block: calc(var(--spacing) * 0);
+}
+
+p:not(:first-child) {
+  margin-top: calc(var(--spacing) * 6);
+}
+
+p {
+  width: 100%;
+  font-weight: var(--font-weight-light);
+  line-height: var(--leading-relaxed);
+}
+
+@media (min-width: 40rem) {
+  :host {
+    font-size: var(--text-lg);
+  }
+}

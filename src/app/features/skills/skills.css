@@ -1,0 +1,40 @@
+:host {
+  font-size: var(--text-base);
+}
+
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: calc(var(--spacing) * 10);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+p:not(:first-child) {
+  margin-top: calc(var(--spacing) * 6);
+}
+
+p {
+  width: 100%;
+  font-weight: var(--font-weight-light);
+  line-height: var(--leading-relaxed);
+}
+
+@media (min-width: 40rem) {
+  :host {
+    font-size: var(--text-lg);
+  }
+}
+
+@media (max-width: 640px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

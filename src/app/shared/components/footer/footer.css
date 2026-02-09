@@ -1,0 +1,19 @@
+:host {
+  font-size: var(--text-xs);
+}
+
+.bold {
+  font-weight: var(--font-weight-semibold);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#dev-name {
+  font-weight: var(--font-weight-semibold);
+  color: var(--primary-color);
+}

@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  color: var(--text-color);
+}
+
+.tech-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  background-color: var(--bg-color);
+  transition:
+    transform var(--transition-duration) var(--transition-curve),
+    border-color var(--transition-duration) var(--transition-curve);
+}
+
+.tech-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary-color);
+}
+
+h3 {
+  font-size: var(--text-base);
+}
+
+p {
+  font-size: var(--text-sm);
+  color: var(--muted-foreground);
+}
