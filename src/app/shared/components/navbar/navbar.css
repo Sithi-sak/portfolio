@@ -20,6 +20,8 @@ nav {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   font-weight: bold;
   font-size: var(--text-xl);
   color: var(--primary-color);
