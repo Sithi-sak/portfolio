@@ -92,11 +92,11 @@
   padding: 0;
   cursor: none;
   transition:
-    background-color 1s var(--transition-curve),
-    border-color 1s var(--transition-curve),
-    color 1s var(--transition-curve),
-    fill 1s var(--transition-curve),
-    stroke 1s var(--transition-curve);
+    background-color 0.5s var(--transition-curve),
+    border-color 0.5s var(--transition-curve),
+    color 0.5s var(--transition-curve),
+    fill 0.5s var(--transition-curve),
+    stroke 0.5s var(--transition-curve);
 }
 
 a {
