@@ -52,8 +52,8 @@ section {
   border: 1px solid var(--border);
   transition:
     transform var(--transition-duration) var(--transition-curve),
-    border-color 1s var(--transition-curve),
-    background-color 1s var(--transition-curve);
+    border-color 0.5s var(--transition-curve),
+    background-color 0.5s var(--transition-curve);
 }
 
 .project-card:hover {
